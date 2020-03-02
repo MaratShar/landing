@@ -1,0 +1,227 @@
+.menu a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  padding: 20px 30px;
+  
+
+
+}
+
+.menu {
+  text-align: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  
+
+}
+body  {
+  margin: 0;
+}
+
+.menu a:hover {
+  background-color: silver;
+}
+
+.header {
+  background-image: url(images/mac.jpg);
+  height: 550px;
+  color: white;
+  text-align: center;
+  background-attachment: fixed;
+}
+.header-info {
+  padding: 200px 20px;
+  
+}
+.header-info a{
+  background-color: silver;
+  text-decoration: none;
+  padding: 12px 24px;
+  margin: 20px;
+  border-radius: 5px;
+  color: black;
+}
+.header-info p{
+  margin: 40px 0;
+}
+#about-company img{
+  width: 400px;
+  float: right;
+  margin: 20px;
+  
+}
+#about-company {
+ max-width:  900px;
+  margin: 0 auto;
+  
+}
+.member {
+  display: inline-block;
+  margin: 20px 20px;
+  /*border: 1px solid black;*/
+  box-shadow: -0px 0px 5px gray;
+  border-radius: 15px;
+  padding: 20px;
+  width: 23%;
+  text-align: left;
+  
+}
+.member img {
+  width: 100%;
+}
+.member a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+  background-color: silver;
+  padding: 14px 0;
+}
+#team {
+  text-align: center;
+}
+.position {
+  color: silver;
+  text-align: left;
+}
+.tariff li {
+  list-style-type: none;
+  
+}
+
+.tariff {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  width: 30%;
+  margin: 0 5px;
+  vertical-align: middle;
+  
+}
+#prices {
+  text-align: center;
+  background-color: #616161;
+  padding: 30px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.tariff-name {
+  background-color: black;
+  color: white;
+  padding: 32px;
+  font-size: 24px;
+   font-weight: bold;
+   
+  
+  
+}
+.best {
+  background-color: red;
+  padding: 48px 48px;
+
+}
+li {
+  border-bottom: 1px solid  silver;
+  padding: 16px ;
+  
+}
+.bold {
+  font-weight: bold;
+}
+.tariff a {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  
+  
+}
+.last-item {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  
+}
+#prices .price {
+  font-size: 24px;
+  color: black;
+}
+#prices h2,#prices p {
+  color: white;
+} 
+#prices .period {
+  color: black;
+    
+}
+.tariff a:hover {
+  background-color: white;
+  color: black;}
+
+  #contacts h2 {
+    text-align: center;
+  }
+#contacts p {
+  text-align: center;
+}
+#contacts .contact-info {
+  text-align: left;
+  background-image: url(images/address.png);
+    background-repeat: no-repeat;
+  padding-left: 20px;
+  background-size: 18px 18px;
+  margin-left: 5%;
+}
+#contacts a {
+  text-decoration: none;
+  
+}
+#contacts .iphone{
+  background-image: url(images/phone.png);
+}
+#contacts .email {
+   background-image: url(images/mail.png);
+}
+input {
+  width: 90%;
+  padding: 8px;}
+#contacts .letter {
+  text-align: center;
+  background-color: black;
+  padding: 8px 16px;
+  color: white;
+}
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) { 
+  .member {
+    width: 80%;
+    margin: 5px 0;
+  }
+  .tariff {
+    width: 95%;
+    margin: 15px 0;
+    
+  }
+  .menu a{
+    width: 100%;
+    padding: 20px 0;
+  }
+  .header {
+    background-size: cover;
+    background-position: center;
+    
+  }
+  input {
+    margin: 5px 0;
+    padding: 12px 8px;
+  }
+
+}
+
+
+
+
+
